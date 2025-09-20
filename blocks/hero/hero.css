@@ -7,7 +7,7 @@
   position: relative;
   padding: 40px 24px;
   min-height: 300px;
-  background-color: linear-gradient(180deg, var(#8821f4) 30%, var(#3c1268) 100%);
+  background-color: #8821f4;
 }
 
 .hero h1 {
