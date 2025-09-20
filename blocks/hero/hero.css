@@ -6,16 +6,13 @@
   position: relative;
   display: flex;
   padding: 5rem 10rem;
-  background: linear-gradient(180deg, #8821f4 30%, #3c1268 100%);
-  border-radius: 18px;
-  box-sizing: border-box;
   color: #fff;
   z-index: 0;
+  min-width: 1200px;
 }
 
 .hero h1 {
   position: relative;
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
