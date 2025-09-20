@@ -1,5 +1,6 @@
 .hero-container .hero-wrapper {
   padding: 2rem 2rem 0;
+    width: auto;
 }
 
 .hero {
@@ -8,7 +9,7 @@
   padding: 5rem 10rem;
   color: #fff;
   z-index: 0;
-  min-width: 1200px;
+    width: auto;
 }
 
 .hero h1 {
@@ -24,13 +25,14 @@
   z-index: 1;
   inset: 0;
   object-fit: cover;
-  box-sizing: border-box;
+    width: auto;
 }
 
 .hero img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+    width: auto;
 }
 
 @media (min-width: 900px) {
