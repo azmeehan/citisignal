@@ -1,13 +1,18 @@
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
-  background-image: linear-gradient(to bottom, #8821f4, #3c1268);
 }
 
 .hero {
-  position: relative;
-  padding: 40px 24px;
-  min-height: 500px;
+   position: relative;
+  display: flex;
+  padding: 5rem 10rem;
+  min-height: 725px;
+  background: linear-gradient(180deg, #8821f4 30%, #3c1268 100%);
+  border-radius: 18px;
+  box-sizing: border-box;
+  color: #fff;
+  z-index: 0;
 }
 
 .hero h1 {
