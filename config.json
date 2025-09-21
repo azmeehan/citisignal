@@ -3,6 +3,7 @@
     "default": {
       "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/Lkp3U7tvTBNAmpFvwnZJ4B/graphql",
       "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/Lkp3U7tvTBNAmpFvwnZJ4B/graphql",
+      "ac-environment-id": "Lkp3U7tvTBNAmpFvwnZJ4B",
       "commerce-assets-enabled": "true",
       "headers": {
         "all": {
