@@ -41,24 +41,23 @@
 <script src="/scripts/commerce.js" type="module"></script>
 
 <script src="/scripts/styleconfigurations.js"></script>
-<script src="/scripts/alloy.js"></script>
 <script src="https://experience-stage.adobe.net/solutions/experience-platform-brand-concierge-web-agent/static-assets/main.js"></script>
 
 <script>
-    !function(n, o) {
-        o.forEach(function(o) {
-            n[o] || ((n.__alloyNS = n.__alloyNS ||
-                []).push(o), n[o] = function() {
-                var u = arguments;
-                return new Promise(
-                    function(i, l) {
-                        n[o].q.push([i, l, u])
-                    })
-            }, n[o].q = [])
-        })
+		!function (n, o) {
+      o.forEach(function (o) {
+        n[o] || ((n.__alloyNS = n.__alloyNS ||
+          []).push(o), n[o] = function () {
+            var u = arguments; return new Promise(
+              function (i, l) { n[o].q.push([i, l, u]) })
+          }, n[o].q = [])
+      })
     }
-(window, ["alloy"]);
-</script>
+      (window, ["alloy"]);
+	</script>
+
+
+<script src="/scripts/alloy.js"></script>
 
 <script>
 	alloy("configure", {
