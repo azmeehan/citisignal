@@ -2777,7 +2777,7 @@
                 return t.className = "scroll-to-bottom", this.flexWrapper.appendChild(t), t
             }
             updateScrollButtonPosition(t) {
-                const e = getComputedStyle(document.querySelector("body > main > div.section.hero-container > div:nth-child(2) > div > div.brand-concierge-flex-wrapper.active-state > div")).getPropertyValue("--scroll-button-bottom-margin").trim(),
+                const e = getComputedStyle(document.querySelector("body > main > div.section.hero-container > div > div > div.brand-concierge-flex-wrapper.active-state > div")).getPropertyValue("--scroll-button-bottom-margin").trim(),
                     n = parseInt(e, 10) || 0,
                     o = document.querySelector(".disclaimer-message"),
                     i = t + (o ? o.getBoundingClientRect().height : 0) + n;
@@ -3594,7 +3594,7 @@
                 null !== this.timeoutId && (window.clearTimeout(this.timeoutId), this.timeoutId = null)
             }
             show() {
-                this.isVisible || (this.container.parentNode || document.querySelector("body > main > div.section.hero-container > div:nth-child(2) > div > div.brand-concierge-flex-wrapper.active-state > div").appendChild(this.container), this.container.offsetHeight, this.container.classList.add("toast--visible"), this.isVisible = !0, this.startTimeout())
+                this.isVisible || (this.container.parentNode || document.querySelector("body > main > div.section.hero-container > div > div > div.brand-concierge-flex-wrapper.active-state > div").appendChild(this.container), this.container.offsetHeight, this.container.classList.add("toast--visible"), this.isVisible = !0, this.startTimeout())
             }
             hide() {
                 this.isVisible && (this.clearTimeout(), this.container.classList.remove("toast--visible"), this.isVisible = !1, setTimeout((() => {
@@ -3987,7 +3987,7 @@
             try {
                 if (Kt = document.createElement("div"), !Kt) return null;
                 Kt.className = "sr-only", Kt.setAttribute("aria-live", "polite"), Kt.setAttribute("aria-atomic", "true"), Kt.setAttribute("role", "status");
-                const t = document.querySelector("body > main > div.section.hero-container > div:nth-child(2) > div > div.brand-concierge-flex-wrapper.active-state > div");
+                const t = document.querySelector("body > main > div.section.hero-container > div > div > div.brand-concierge-flex-wrapper.active-state > div");
                 return t ? t.appendChild(Kt) : document.body.appendChild(Kt), Kt
             } catch (t) {
                 return console.error("[aria-announcer] Failed to create live region:", t), Kt = null, null
