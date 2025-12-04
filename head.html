@@ -61,7 +61,7 @@
 <script>
 	alloy("configure", {
 		defaultConsent: "in",
-        edgeDomain: "edge.adobedc.net", // replace edge domain
+        edgeDomain: "edge.adobedc.net",
         edgeBasePath: "ee",
         datastreamId: "1f90ab87-da55-45d0-9723-a86bd8d46fb2", // replace datastreamId
         orgId: "907075E95BF479EC0A495C73@AdobeOrg", // replace ims org Id
@@ -79,7 +79,7 @@ window["alloy"]("sendEvent", {
     console.log("Conversation experience fetched", result);
     window["alloy"]("bootstrapConversationalExperience", {
         selector: "#brand-concierge-mount",
-        src: "/scripts/brandconciergemain.js", // replace web client cdn link
+        src: "/scripts/brandconciergemain.js",
         stylingConfigurations: window.styleConfiguration,
         stickySession: true // create a sticky session cookie with expiration
     })
