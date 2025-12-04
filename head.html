@@ -78,7 +78,7 @@ window["alloy"]("sendEvent", {
 }).then(result => {
     console.log("Conversation experience fetched", result);
     window["alloy"]("bootstrapConversationalExperience", {
-        selector: ".brandconcierge",
+        selector: "#brand-concierge-mount",
         src: "/scripts/brandconciergemain.js", // replace web client cdn link
         stylingConfigurations: window.styleConfiguration,
         stickySession: true // create a sticky session cookie with expiration
